@@ -1,0 +1,8 @@
+# All files in the repo must be reviewed by Dev team
+* @CI-CD-Demo-Finkraft-ai/dev-team
+
+# QA must review all tests
+tests/* @CI-CD-Demo-Finkraft-ai/qa-team
+
+# Release team owns deployment workflows
+.github/workflows/* @CI-CD-Demo-Finkraft-ai/release-team
